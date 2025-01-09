@@ -1,85 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>خدمة حجز الحلاق</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barber Booking</title>
+  <link rel="stylesheet" href="styles.css"> <!-- ملف CSS للتصميم -->
 </head>
 <body>
-    <header>
-        <h1>خدمة طلب الحلاق</h1>
-        <nav>
-            <a href="#services">الخدمات</a>
-            <a href="#booking">احجز الآن</a>
-            <a href="#contact">تواصل معنا</a>
-        </nav>
-    </header        
+  <header>
+    <h1>Welcome to Barber Booking</h1>
+  </header>
+  <main>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required><br>
 
-            
-    <section id="contact">
-        <h2>تواصل معنا</h2>
-        <p>للاستفسارات، تواصل عبر البريد: shaveme112@gmail.com</p>
-    </section>
+      <label for="phone">Phone Number:</label>
+      <input type="text" id="phone" name="phone" required><br>
 
-    <script src="app.js"></script>
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" name="date" required><br>
+
+      <button type="submit">Book Now</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 Barber Booking</p>
+  </footer>
 </body>
 </html>
-<form action="https://formspree.io/f/yourformid" method="POST">
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name"><br>
-  
-  <label for="phone">Phone Number:</label><br>
-  <input type="text" id="phone" name="phone"><br>
 
-  <label for="time">Preferred Time:</label><br>
-  <input type="text" id="time" name="time"><br>
 
-  <input type="submit" value="Submit">
-</form>
-
-!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/xvggveez"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
-<form>
-    <!-- هنا يبقى نموذج التسجيل -->
-    <button type="submit" onclick="markComplete()">تم ✅</button>
-</form>
-
-<script>
-    </section>
-
-   <form action="https://formspree.io/f/yourformid" method="POST">
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name" required><br>
-  
-  <label for="phone">Phone Number:</label><br>
-  <input type="text" id="phone" name="phone" required><br>
-
-  <label for="time">Preferred Time:</label><br>
-  <input type="text" id="time" name="time" required><br>
-
-  <label for="location">Location:</label><br>
-  <input type="text" id="location" name="location" required><br>
-
-  <label for="date">Preferred Date:</label><br>
-  <input type="date" id="date" name="date" required><br>
-
-  <input type="submit" value="Submit">
-</form>
-
-</script>
+   
+    
 
