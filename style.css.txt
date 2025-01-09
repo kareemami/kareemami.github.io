@@ -56,3 +56,16 @@ form button {
 form button:hover {
     background-color: #555;
 }
+body {
+    background-color: #f0f0f0; /* تغيير خلفية الصفحة */
+    font-family: 'Arial', sans-serif; /* تغيير الخط */
+}
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+body {
+    font-family: 'Roboto', sans-serif; /* يمكنك تغيير الخط حسب ما تحب */
+}
