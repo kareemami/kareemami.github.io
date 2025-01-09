@@ -14,15 +14,9 @@
             <a href="#booking">احجز الآن</a>
             <a href="#contact">تواصل معنا</a>
         </nav>
-    </header>
-
-    
-
+    </header        
 
             
-
-            
-
     <section id="contact">
         <h2>تواصل معنا</h2>
         <p>للاستفسارات، تواصل عبر البريد: shaveme112@gmail.com</p>
@@ -68,12 +62,24 @@
 <script>
     </section>
 
-    <section id="contact">
-        <h2>تواصل معنا</h2>
-        <p>للاستفسارات، تواصل عبر البريد: shaveme112@gmail.com</p>
-    </section>
-    function markComplete() {
-        alert("تم التسجيل بنجاح ✅");
-    }
+   <form action="https://formspree.io/f/yourformid" method="POST">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br>
+  
+  <label for="phone">Phone Number:</label><br>
+  <input type="text" id="phone" name="phone" required><br>
+
+  <label for="time">Preferred Time:</label><br>
+  <input type="text" id="time" name="time" required><br>
+
+  <label for="location">Location:</label><br>
+  <input type="text" id="location" name="location" required><br>
+
+  <label for="date">Preferred Date:</label><br>
+  <input type="date" id="date" name="date" required><br>
+
+  <input type="submit" value="Submit">
+</form>
+
 </script>
 
